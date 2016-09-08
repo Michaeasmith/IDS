@@ -1,0 +1,3 @@
+Firewall should support:
+
+DHCP, DNS, webaccess (wget), ssh, apt
