@@ -2,10 +2,10 @@
 default <> deny
 
 #DHCP Client
-udp any:68<>10.20.20.1:67 pass
+udp any:68<>8.8.8.8:67 pass
 
 #DNS Client
-udp any>10.20.20.1:53 pass
+udp any>8.8.8.8:53 pass
 
 #FTP Client
 tcp any>any:21 pass
